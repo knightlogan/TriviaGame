@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Six Caps', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Playfair+Display|Six+Caps|Teko:300,400');
+}
+
+h2 {
+    font-family: 'Six Caps';
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+h1, h3 {
+    font-family: 'Six Caps';
+    font-size: 60px;
+    color: black; 
+}
+
+#splashscreen {
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.black-background {
+    background-color: gray;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.splashBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+}
+
+.splashBox2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: black;
+}
+
+#answerScreen {
+    display: none;
+    /* background-image: url('http://i.imgur.com/Cz8IzMC.jpg'); */
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#timesUp {
+    display: none;
+    /* background-image: url('http://i.imgur.com/Cz8IzMC.jpg'); */
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.up {
+    color: rgba(255, 0, 0, 0.384);
+}
+
+.timeRemain {
+    align-content: center;
+    display: block;
+    padding: 5%;
+    color: teal;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+}
+
+.questions {
+    font-size: 25px;
+    font-family: 'Six Caps', sans-serif;
+}
+
+.ques, label {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: whitesmoke;
+    margin-top: 2%;
+}
+
+ body {
+     background-image: url("images/aliimg.jpeg");
+     height: 100%;
+ }
+
+ #container{
+     background: white;
+     margin: 20%;
+ }
+
